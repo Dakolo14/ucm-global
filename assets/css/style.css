@@ -672,6 +672,46 @@ section {
   background-color: #5faee3;
 }
 
+
+
+/*--------------------------------------------------------------
+# Why Us
+--------------------------------------------------------------*/
+.serv .box {
+  padding: 40px 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+  background-color: #ffffff;
+}
+
+.serv .box h4 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 10px 0;
+  color: #353535;
+}
+
+.serv .box p {
+  color: #919191;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.serv .box:hover {
+  background: #3498db;
+  padding: 20px 10px 70px 30px;
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+.serv .box:hover span,
+.serv .box:hover h4,
+.serv .box:hover p {
+  color: #fff;
+}
+
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
