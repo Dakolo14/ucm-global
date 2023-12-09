@@ -692,8 +692,9 @@ section {
 }
 
 .game .boxer {
+  padding: 40px 20px;
   background-color: #3498db;
-  box-shadow: 0px 2px 15px rgba(115, 184, 244, 0.1);
+  box-shadow: 0px 2px 15px rgba(238, 247, 255, 0.1);
   transition: all ease-in-out 0.3s;
   color: #fff;
 }
@@ -1110,11 +1111,16 @@ section {
   background-color: #3498db;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team .member {
-  text-align: center;
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 20px;
