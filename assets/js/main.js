@@ -349,3 +349,21 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 modalCloseBtn.addEventListener("click", testimonialsModalFunc);
 overlay.addEventListener("click", testimonialsModalFunc);
 
+
+
+/**
+   * Scroll Reveal Animation
+*/
+
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 200,
+  //reset : true // Animation repeat
+})
+
+sr.reveal(`.side-left`, {origin: 'left'})
+sr.reveal(`.side-right`, {origin: 'right'})
+sr.reveal(`#hero, .projects__card`, {interval: 100})
+
