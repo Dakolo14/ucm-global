@@ -40,6 +40,10 @@ input[type=checkbox] {
   margin-right: 6px;
 }
 
+input[type=file] {
+  height: 100% !important;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -56,6 +60,7 @@ input[type=checkbox] {
   border-radius: 4px;
   transition: all 0.4s;
 }
+
 
 .back-to-top i {
   font-size: 28px;
